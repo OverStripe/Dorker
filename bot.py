@@ -138,7 +138,7 @@ async def dork(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 # Main Function
 def main():
     # Updated Bot Token
-    application = ApplicationBuilder().token("7411902169:AAGjqjwWRo9oNEh_7FeWV3qlM9Ui143g6Fwu").build()
+    application = ApplicationBuilder().token("7411902169:AAFbfcS2UMW0C9wt_lNzdGYz6xql1pqPwzA").build()
 
     # Add Handlers
     application.add_handler(CommandHandler("start", start))
